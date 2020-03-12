@@ -126,7 +126,7 @@ main {
     transform: rotate(-360deg);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-aspect-ratio: 8/5) {
     .navbar {
         bottom: 0;
         width: 100vw;
@@ -149,7 +149,7 @@ main {
 
 /* Large screens */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-aspect-ratio: 8/5) {
     .navbar {
         top: 0;
         width: 5rem;
