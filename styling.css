@@ -6,11 +6,13 @@
     --bg-primary: #23232e;
     --bg-secondary: #141418;
     --transition-speed: 600ms;
+    --page-bg: #252525;
+    --page-text: white;
 }
 
 body {
-    color: black;
-    background-color: white;
+    color: var(--page-text);
+    background-color: var(--page-bg);
     margin: 0;
     padding: 0;
 }
@@ -30,6 +32,10 @@ body::-webkit-scrollbar-thumb {
 main {
     margin-left: 5rem;
     padding: 1rem;
+}
+
+.page {
+    margin-left: 1rem;
 }
 
 .navbar {
