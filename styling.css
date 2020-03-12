@@ -37,6 +37,7 @@ main {
     height: 100vh;
     position: fixed;
     background-color: var(--bg-primary);
+    transition: 200ms ease;
 }
 
 .navbar-nav {
@@ -72,6 +73,7 @@ main {
 
 .nav-link svg {
     min-width: 2rem;
+    max-width: 2rem;
     margin: 0 1.5rem;
 }
 
