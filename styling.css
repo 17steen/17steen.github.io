@@ -171,6 +171,8 @@ main {
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
+    --page-bg: #252525;
+    --page-text: white;
 }
 
 .light {
@@ -178,6 +180,8 @@ main {
     --text-secondary: #000000;
     --bg-primary: #ffffff;
     --bg-secondary: #e4e4e4;
+    --page-bg: #cfcfcf;
+    --page-text: rgb(59, 54, 54);
 }
 
 .solar {
@@ -185,6 +189,8 @@ main {
     --text-secondary: #35535c;
     --bg-primary: #fdf6e3;
     --bg-secondary: #f5e5b8;
+    --page-bg: #dfcea0;
+    --page-text: #3e5b64;
 }
 
 .theme-icon {
